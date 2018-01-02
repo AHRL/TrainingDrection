@@ -171,3 +171,23 @@ header div img{
     font-size: 1.5em;
     display: inline;
 }
+/*mask*/
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index:9;
+}
+.span{
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    left:0;
+    right: 0;
+    top:150px;
+    font-family: "Lucida Console",'微软雅黑';
+    z-index: 10;
+}
